@@ -1,0 +1,16 @@
+numpy
+rasterio
+xarray
+scikit-learn
+pandas
+matplotlib
+flask
+geopandas
+pystac-client
+boto3
+requests
+rasterstats
+joblib
+shapely
+geoviews
+folium
