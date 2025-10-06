@@ -1,7 +1,7 @@
 
 # Urban Vitality Index (UVI) - Real Project (Los Angeles)
 
-This repository implements the Urban Vitality Index for **Los Angeles** using publicly-available Earth observation datasets (Option B: public cloud & data portals). The code automates data discovery and download (where possible via public cloud), computes environmental indices (NDVI, LST proxy), ingests air quality and precipitation, and produces a notebook + Flask dashboard combining all layers.
+This repository implements the Urban Vitality Index for **Los Angeles** using publicly-available Earth observation datasets. The code automates data discovery and download (where possible via public cloud), computes environmental indices (NDVI, LST proxy), ingests air quality and precipitation, and produces a notebook + Flask dashboard combining all layers.
 
 Important: many satellite products are large. The scripts are designed to download **only the tiles overlapping a user-provided bounding box** (Los Angeles by default). Some data sources require an account (Copernicus / Earthdata) — instructions are provided.
 
